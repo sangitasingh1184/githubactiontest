@@ -1,3 +1,4 @@
+name: My Pipeline
 on:
 workflow_dispatch:
 jobs:
