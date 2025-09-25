@@ -1,6 +1,6 @@
 name: My Pipeline
 on:
-workflow_dispatch
+workflow_dispatch:
 jobs:
   greeting:
     runs-on: ubuntu-latest
