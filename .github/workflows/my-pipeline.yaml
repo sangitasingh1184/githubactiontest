@@ -5,9 +5,7 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - name: say hello
-        run: echo "hello world"   
-      - uses: actions/setup-java@v5.0.0
-        with:
-           java-versiin:17
-           distribution:'zulu' 
+    - name: setup java
+             uses:actions/setup-java@v5.0.0
+       with
+             java-version:"17"
