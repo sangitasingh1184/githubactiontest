@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: say hello
         run: echo "hello world"   
+      - uses: actions/setup-java@v5.0.0
+        with:
+           java-versiin:17
+           distribution:'zulu' 
